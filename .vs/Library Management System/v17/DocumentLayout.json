@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Windows App\\Library Management System\\Library Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\mdi_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\mdi_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/library_managemant_system/True/SqlTable/dbo.library_person.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.library_person [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/library_managemant_system/True/SqlTable/dbo.library_person.sql",
+              "ToolTip": "dbo.library_person [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-01-22T17:28:21.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mdi_user.cs",
+              "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\mdi_user.cs",
+              "RelativeDocumentMoniker": "Library Management System\\mdi_user.cs",
+              "ToolTip": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\mdi_user.cs",
+              "RelativeToolTip": "Library Management System\\mdi_user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T15:53:23.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Login.cs",
+              "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\Login.cs",
+              "RelativeDocumentMoniker": "Library Management System\\Login.cs",
+              "ToolTip": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\Login.cs",
+              "RelativeToolTip": "Library Management System\\Login.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T15:21:37.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\Login.cs",
+              "RelativeDocumentMoniker": "Library Management System\\Login.cs",
+              "ToolTip": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\Login.cs [Design]",
+              "RelativeToolTip": "Library Management System\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T14:08:20.924Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
