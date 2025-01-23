@@ -8,3 +8,8 @@ H:\Windows App\Library Management System\Library Management System\Library Manag
 H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.CoreCompileInputs.cache
 H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library Management System.exe
 H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library Management System.pdb
+H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library_Management_System.mdi_user.resources
+H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library_Management_System.add_books.resources
+H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library_Management_System.view_books.resources
+H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library_Management_System.add_student_info.resources
+H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library_Management_System.view_student_info.resources
