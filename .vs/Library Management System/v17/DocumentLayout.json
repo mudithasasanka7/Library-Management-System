@@ -3,19 +3,31 @@
   "WorkspaceRootPath": "H:\\Windows App\\Library Management System\\Library Management System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\issue_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\issue_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\issue_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\issue_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\view_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\view_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\add_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\add_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\add_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\add_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\add_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\add_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\view_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\view_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\view_student_info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +46,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Library Management System\\Program.cs",
+              "ToolTip": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\Program.cs",
+              "RelativeToolTip": "Library Management System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:59:53.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "issue_books.cs",
+              "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\issue_books.cs",
+              "RelativeDocumentMoniker": "Library Management System\\issue_books.cs",
+              "ToolTip": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\issue_books.cs*",
+              "RelativeToolTip": "Library Management System\\issue_books.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:37:14.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "issue_books.cs [Design]",
+              "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\issue_books.cs",
+              "RelativeDocumentMoniker": "Library Management System\\issue_books.cs",
+              "ToolTip": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\issue_books.cs [Design]*",
+              "RelativeToolTip": "Library Management System\\issue_books.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:21:11.106Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "view_student_info.cs",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\view_student_info.cs",
               "RelativeDocumentMoniker": "Library Management System\\view_student_info.cs",
               "ToolTip": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\view_student_info.cs",
               "RelativeToolTip": "Library Management System\\view_student_info.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAcwJwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-23T05:30:37.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "view_student_info.cs [Design]",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\view_student_info.cs",
               "RelativeDocumentMoniker": "Library Management System\\view_student_info.cs",
@@ -59,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "add_student_info.cs",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\add_student_info.cs",
               "RelativeDocumentMoniker": "Library Management System\\add_student_info.cs",
@@ -72,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "add_student_info.cs [Design]",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\add_student_info.cs",
               "RelativeDocumentMoniker": "Library Management System\\add_student_info.cs",
