@@ -22,31 +22,39 @@ namespace Library_Management_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int i = 0;
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "select  from student_info where student_enrollment_no '" + tet_enrollment.Text + "'";
-            cmd.ExecuteNonQuery();
-            DataTable dt = new DataTable();
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            da.Fill(dt);
-
-            i = Convert.ToInt32(dt.Rows.Count.ToString());
-
-            if(i==0 )
+            try
             {
-                MessageBox.Show("This.enrollment no not found");
-            }
-            else
-            {
-                foreach (DataRow dr in dt.Rows)
+                // Initialize a parameterized query to prevent SQL Injection
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "SELECT * FROM student_info WHERE student_enrollment_no = @enrollment_no";
+                cmd.Parameters.AddWithValue("@enrollment_no", tet_enrollment.Text);
+
+                // Use SqlDataAdapter to fill a DataTable
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                if (dt.Rows.Count == 0)
                 {
-                    tet_studentname.Text = dr["student_name"].ToString();
-                    tet_studentdept.Text = dr["student_department"].ToString();
-                    tet_studentsem.Text = dr["student_sem"].ToString();
-                    tet_studentcontact.Text = dr["student_contact"].ToString();
-                    tet_studentemail.Text = dr["student_email"].ToString();
+                    MessageBox.Show("This enrollment number was not found.");
                 }
+                else
+                {
+                    // Populate the text boxes with retrieved data
+                    foreach (DataRow dr in dt.Rows)
+                    {
+                        tet_studentname.Text = dr["student_name"].ToString();
+                        tet_studentdept.Text = dr["student_department"].ToString();
+                        tet_studentsem.Text = dr["student_sem"].ToString();
+                        tet_studentcontact.Text = dr["student_contact"].ToString();
+                        tet_studentemail.Text = dr["student_email"].ToString();
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred: " + ex.Message);
             }
         }
 
