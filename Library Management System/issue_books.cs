@@ -125,17 +125,37 @@ namespace Library_Management_System
 
         private void button2_Click(object sender, EventArgs e)
         {
-            SqlCommand cmd = con.CreateCommand();
-            cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "insert into issue_books values('"+ tet_enrollment.Text +"','" + tet_studentname.Text +"','" + tet_studentdept.Text +"','" + tet_studentsem.Text +"','" + tet_studentcontact.Text +"','" + tet_studentemail.Text +"','" + txt_boksname.Text +"','" + dateTimePicker1.Value.ToShortDateString() + "')";
-            cmd.ExecuteNonQuery();
+            int books_qty = 0;
+            SqlCommand cmd2 = con.CreateCommand();
+            cmd2.CommandType = CommandType.Text;
+            cmd2.CommandText = "select * from books_info where books_name = '" + txt_boksname.Text+ "'";
+            cmd2.ExecuteNonQuery();
+            DataTable dt2 = new DataTable();
+            SqlDataAdapter da2 = new SqlDataAdapter(cmd2);
+            da2.Fill(dt2);
+            foreach(DataRow dr2 in dt2.Rows)
+            {
+                books_qty = Convert.ToInt32(dr2["available_qty"].ToString());
+            }
 
-            SqlCommand cmd1 = con.CreateCommand();
-            cmd1.CommandType = CommandType.Text;
-            cmd1.CommandText = "update books_info set available_qty = available_qty - 1 where books_name = '" + txt_boksname.Text +"'";
-            cmd1.ExecuteNonQuery();
+            if (books_qty > 0)
+            {
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "insert into issue_books values('" + tet_enrollment.Text + "','" + tet_studentname.Text + "','" + tet_studentdept.Text + "','" + tet_studentsem.Text + "','" + tet_studentcontact.Text + "','" + tet_studentemail.Text + "','" + txt_boksname.Text + "','" + dateTimePicker1.Value.ToShortDateString() + "','')";
+                cmd.ExecuteNonQuery();
 
-            MessageBox.Show("Books issue Successfully.");
+                SqlCommand cmd1 = con.CreateCommand();
+                cmd1.CommandType = CommandType.Text;
+                cmd1.CommandText = "update books_info set available_qty = available_qty - 1 where books_name = '" + txt_boksname.Text + "'";
+                cmd1.ExecuteNonQuery();
+
+                MessageBox.Show("Books issue Successfully.");
+            }
+            else
+            {
+                MessageBox.Show("Books Not available.");
+            }
         }
     }
 }

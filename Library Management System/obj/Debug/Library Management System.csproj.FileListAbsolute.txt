@@ -14,3 +14,5 @@ H:\Windows App\Library Management System\Library Management System\Library Manag
 H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library_Management_System.add_student_info.resources
 H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library_Management_System.view_student_info.resources
 H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library_Management_System.issue_books.resources
+H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library_Management_System.return_books.resources
+H:\Windows App\Library Management System\Library Management System\Library Management System\obj\Debug\Library_Management_System.books_stock.resources
