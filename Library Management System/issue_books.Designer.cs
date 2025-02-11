@@ -32,7 +32,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.tet_enrollment = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txt_boksname = new System.Windows.Forms.TextBox();
             this.tet_studentemail = new System.Windows.Forms.TextBox();
             this.tet_studentcontact = new System.Windows.Forms.TextBox();
             this.tet_studentsem = new System.Windows.Forms.TextBox();
@@ -47,15 +47,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.listBox1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Controls.Add(this.tet_enrollment);
-            this.panel1.Controls.Add(this.textBox6);
+            this.panel1.Controls.Add(this.txt_boksname);
             this.panel1.Controls.Add(this.tet_studentemail);
             this.panel1.Controls.Add(this.tet_studentcontact);
             this.panel1.Controls.Add(this.tet_studentsem);
@@ -72,7 +74,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(47, 30);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1191, 509);
+            this.panel1.Size = new System.Drawing.Size(1191, 536);
             this.panel1.TabIndex = 0;
             // 
             // button2
@@ -84,11 +86,12 @@
             this.button2.TabIndex = 10;
             this.button2.Text = "Issue Books";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(721, 311);
+            this.dateTimePicker1.Location = new System.Drawing.Point(721, 265);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(321, 30);
             this.dateTimePicker1.TabIndex = 9;
@@ -101,13 +104,15 @@
             this.tet_enrollment.Size = new System.Drawing.Size(328, 30);
             this.tet_enrollment.TabIndex = 8;
             // 
-            // textBox6
+            // txt_boksname
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(721, 260);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(321, 30);
-            this.textBox6.TabIndex = 7;
+            this.txt_boksname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_boksname.Location = new System.Drawing.Point(721, 312);
+            this.txt_boksname.Name = "txt_boksname";
+            this.txt_boksname.Size = new System.Drawing.Size(321, 30);
+            this.txt_boksname.TabIndex = 7;
+            this.txt_boksname.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_boksname_KeyDown);
+            this.txt_boksname.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txt_boksname_KeyUp);
             // 
             // tet_studentemail
             // 
@@ -174,7 +179,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(535, 263);
+            this.label8.Location = new System.Drawing.Point(535, 315);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(124, 25);
             this.label8.TabIndex = 0;
@@ -184,7 +189,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(554, 316);
+            this.label5.Location = new System.Drawing.Point(554, 270);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(105, 25);
             this.label5.TabIndex = 0;
@@ -240,6 +245,18 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter Enrollment No";
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(721, 346);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(321, 132);
+            this.listBox1.TabIndex = 11;
+            this.listBox1.Visible = false;
+            this.listBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseClick);
+            this.listBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.listBox1_KeyDown);
+            // 
             // issue_books
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -266,7 +283,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox tet_enrollment;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txt_boksname;
         private System.Windows.Forms.TextBox tet_studentemail;
         private System.Windows.Forms.TextBox tet_studentcontact;
         private System.Windows.Forms.TextBox tet_studentsem;
@@ -276,5 +293,6 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
