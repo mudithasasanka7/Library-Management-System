@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "H:\\Windows App\\Library Management System\\Library Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\books_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\report_books_remain_retain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\report_books_remain_retain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\books_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\books_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +15,11 @@
       "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\books_stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|h:\\windows app\\library management system\\library management system\\library management system\\return_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\return_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\return_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\return_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\return_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\mdi_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\mdi_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\return_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|solutionrelative:library management system\\return_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45641D93-7F73-4C29-8BE6-AC97335682AD}|Library Management System\\Library Management System.csproj|H:\\Windows App\\Library Management System\\Library Management System\\library management system\\issue_books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,19 +71,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "report_books_remain_retain.cs [Design]",
+              "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\report_books_remain_retain.cs",
+              "RelativeDocumentMoniker": "Library Management System\\report_books_remain_retain.cs",
+              "ToolTip": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\report_books_remain_retain.cs [Design]",
+              "RelativeToolTip": "Library Management System\\report_books_remain_retain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:51:53.95Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "books_stock.cs",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\books_stock.cs",
               "RelativeDocumentMoniker": "Library Management System\\books_stock.cs",
               "ToolTip": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\books_stock.cs",
               "RelativeToolTip": "Library Management System\\books_stock.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAswD4AAACYAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFUAAAB6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T14:03:51.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "books_stock.cs [Design]",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\books_stock.cs",
               "RelativeDocumentMoniker": "Library Management System\\books_stock.cs",
@@ -91,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "view_books.cs",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\view_books.cs",
               "RelativeDocumentMoniker": "Library Management System\\view_books.cs",
@@ -99,12 +115,11 @@
               "RelativeToolTip": "Library Management System\\view_books.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T08:37:36.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T08:37:36.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "return_books.cs",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\return_books.cs",
               "RelativeDocumentMoniker": "Library Management System\\return_books.cs",
@@ -112,12 +127,11 @@
               "RelativeToolTip": "Library Management System\\return_books.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwDcAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T08:21:47.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T08:21:47.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "return_books.cs [Design]",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\return_books.cs",
               "RelativeDocumentMoniker": "Library Management System\\return_books.cs",
@@ -128,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\Program.cs",
               "RelativeDocumentMoniker": "Library Management System\\Program.cs",
@@ -136,12 +150,11 @@
               "RelativeToolTip": "Library Management System\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T06:40:18.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T06:40:18.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "mdi_user.cs",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\mdi_user.cs",
               "RelativeDocumentMoniker": "Library Management System\\mdi_user.cs",
@@ -153,7 +166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "mdi_user.cs [Design]",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\mdi_user.cs",
               "RelativeDocumentMoniker": "Library Management System\\mdi_user.cs",
@@ -164,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "issue_books.cs",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\issue_books.cs",
               "RelativeDocumentMoniker": "Library Management System\\issue_books.cs",
@@ -176,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "issue_books.cs [Design]",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\issue_books.cs",
               "RelativeDocumentMoniker": "Library Management System\\issue_books.cs",
@@ -187,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "add_books.cs [Design]",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\add_books.cs",
               "RelativeDocumentMoniker": "Library Management System\\add_books.cs",
@@ -198,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "add_books.cs",
               "DocumentMoniker": "H:\\Windows App\\Library Management System\\Library Management System\\Library Management System\\add_books.cs",
               "RelativeDocumentMoniker": "Library Management System\\add_books.cs",

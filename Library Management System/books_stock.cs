@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Net.Mail;
+using System.Net;
 
 namespace Library_Management_System
 {
@@ -66,6 +68,25 @@ namespace Library_Management_System
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
             dataGridView1.DataSource = dt;
+        }
+
+        private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string i;
+            i = dataGridView2.SelectedCells[6].Value.ToString();
+            textBox2.Text = i.ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SmtpClient smtp = new SmtpClient("smpt.gmail.com",587);
+            smtp.EnableSsl = true;
+            smtp.UseDefaultCredentials = false;
+            smtp.Credentials = new NetworkCredential("muditha@gmail.com", "xxxxxxxx");
+            MailMessage mail = new MailMessage("muditha@gmail.com",textBox2.Text,"This is for book return notice",textBox3.Text);
+            mail.Priority = MailPriority.High;
+            smtp.Send(mail);
+            MessageBox.Show("mail send");
         }
     }
 }
